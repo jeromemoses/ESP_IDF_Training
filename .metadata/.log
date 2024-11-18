@@ -2658,3 +2658,48 @@ IDF_DEACTIVATE_FILE_PATH=C:\Users\DELL\AppData\Local\Temp\tmpl50hlo21idf_11368
 
 !ENTRY com.espressif.idf.core 1 0 2024-11-18 14:07:37.546
 !MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:21:44.066
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:21:44.084
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:22:08.179
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:22:08.845
+!MESSAGE D:\ESP_IDF_Training\02_INPUT_DRIVE\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:22:09.260
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:17.291
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:17.303
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:17.329
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:19.441
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:19.448
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:24:19.454
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:30:16.495
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:30:16.513
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 14:30:16.523
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe

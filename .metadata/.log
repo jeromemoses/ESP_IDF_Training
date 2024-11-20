@@ -3769,3 +3769,410 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request cancelled b
 
 !ENTRY com.espressif.idf.core 1 0 2024-11-18 15:18:15.212
 !MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:20.600
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:20.617
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:41.598
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:42.007
+!MESSAGE D:\ESP_IDF_Training\04_SIMPLE_DEBOUNCING\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:42.103
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:49.469
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:49.474
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:22:49.477
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:38.275
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:38.279
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:38.285
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:40.322
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:40.328
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:31:40.335
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:34:52.560
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:34:52.567
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:34:52.576
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:34:52.765
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:34:52.766
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:36:55.277
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:36:55.285
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:36:55.300
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:37:11.087
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:37:11.092
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:37:11.092
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:37:11.096
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:37:11.097
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:14.634
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:14.644
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:14.659
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:51.064
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:51.071
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:51.075
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:53.084
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:53.089
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:38:53.094
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:42:46.192
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:42:46.201
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:42:46.209
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:42:46.394
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:42:46.396
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:45:50.905
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:45:50.917
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:45:50.930
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:46:03.809
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:46:03.815
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:46:03.817
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:46:03.822
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:46:03.831
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:49:35.911
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:49:35.927
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:49:40.445
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:49:40.769
+!MESSAGE D:\ESP_IDF_Training\05_GPIO_CONFIG\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:49:40.851
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY org.eclipse.cdt.build.gcc.core 4 0 2024-11-18 15:49:45.680
+!MESSAGE D:\ESP_IDF_Training\05_GPIO_CONFIG\build\.sc9450401338827904297.c
+!STACK 0
+java.nio.file.NoSuchFileException: D:\ESP_IDF_Training\05_GPIO_CONFIG\build\.sc9450401338827904297.c
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136)
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159)
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878)
+	at org.eclipse.cdt.build.gcc.core.GCCToolChain.getDefaultScannerInfo(GCCToolChain.java:459)
+	at org.eclipse.cdt.core.build.CBuildConfiguration.getScannerInformation(CBuildConfiguration.java:744)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1070)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:853)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:163)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getElementInfo(TranslationUnit.java:458)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getTranslationUnitChildren(BaseCElementContentProvider.java:491)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:279)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:92)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:233)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1448)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:351)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:655)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:850)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:615)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:803)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1582)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:913)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1594)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7709)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5798)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5366)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4800)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1576)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6610)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4780)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6142)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.jface.text 4 0 2024-11-18 15:53:14.209
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request cancelled because the document was modified
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request cancelled because the document was modified
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:310)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request cancelled because the document was modified
+	... 11 more
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:15.682
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:15.713
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:15.729
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:17.816
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:17.840
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:17.863
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:28.128
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:28.135
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:28.139
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:28.206
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 15:58:28.209
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:36:51.479
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:36:51.496
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:03.190
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:03.648
+!MESSAGE D:\ESP_IDF_Training\06_DAC_DRIVE\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:03.737
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:08.397
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:08.401
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 16:37:08.405
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:49.985
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:49.989
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:49.993
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:52.046
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:52.051
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:01:52.056
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:43:46.978
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:43:47.008
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:43:47.018
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:43:48.331
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:43:48.333
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:08.281
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:08.288
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:08.296
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:08.353
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:08.355
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:10.339
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:10.348
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-18 17:48:10.355
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-20 14:15:20.610
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-20 14:15:20.621
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-11-20 14:15:20.626
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe

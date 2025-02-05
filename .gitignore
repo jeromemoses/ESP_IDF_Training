@@ -26,3 +26,4 @@ yarn-debug.log*
 yarn-error.log*
 _9_internet/_9_8_Server_react/build
 managed_components/
+/.metadata/

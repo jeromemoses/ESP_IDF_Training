@@ -1,0 +1,65 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp_modem:
+    component_hash: 681d7c8417ce0f2a11a562c6998b7b379a4847be41d84673c11c0c7a6b00e918
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    version: 1.3.0
+  espressif/iot_bridge:
+    component_hash: 534ef7d20b1b72cb170b7cdc7ee0ab1275a281692d3191bdfc8658a1f34591e9
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    - name: espressif/esp_tinyusb
+      registry_url: https://components.espressif.com
+      require: private
+      rules:
+      - if: target in [esp32s2, esp32s3]
+      - if: idf_version >=5.1.4
+      version: 1.*
+    - name: espressif/esp_modem_usb_dte
+      registry_url: https://components.espressif.com
+      require: private
+      rules:
+      - if: target in [esp32s2, esp32s3]
+      version: 1.*
+    - name: espressif/esp_modem
+      registry_url: https://components.espressif.com
+      require: private
+      rules:
+      - if: target not in [esp32s2, esp32s3]
+      version: 1.*
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.*
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.11.7
+  idf:
+    source:
+      type: idf
+    version: 5.2.2
+direct_dependencies:
+- espressif/cmake_utilities
+- espressif/iot_bridge
+- idf
+manifest_hash: c8fd8328c938c844b1d10c7a1d99d1520cfe79e8df397acdcee6bbfbeb4afbe6
+target: esp32
+version: 2.0.0

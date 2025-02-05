@@ -5,7 +5,7 @@
 #include <sys/unistd.h>
 #include <unistd.h>
 
-#define OUT_PIN 2
+#define OUT_PIN 22
 
 void app_main(void)
 {

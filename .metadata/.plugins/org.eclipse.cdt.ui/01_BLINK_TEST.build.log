@@ -10,4 +10,4 @@ Used Flash size :  119651 bytes
          .rodata:   38660 bytes
 Total image size:  179513 bytes (.bin may be padded larger)
 C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/\components\partition_table\gen_esp32part.py D:\ESP_IDF_Training\01_BLINK_TEST\build\partition_table\partition-table.bin
-Total time taken to build the project: 50,822 ms
+Total time taken to build the project: 7,264 ms

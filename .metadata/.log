@@ -4176,3 +4176,1059 @@ For bug reports, read
 
 !ENTRY com.espressif.idf.core 1 0 2024-11-20 14:15:20.626
 !MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+!SESSION 2025-02-05 11:49:04.229 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-05 11:49:18.940
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/06_DAC_DRIVE/main/main.c'.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3198)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1364)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:118)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/06_DAC_DRIVE/main/main.c'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.internal.genericeditor.ExtensionBasedTextEditor.doSetInput(ExtensionBasedTextEditor.java:95)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2292)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	... 115 more
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-02-05 11:49:18.943
+!MESSAGE Cannot determine URI for '/06_DAC_DRIVE/main/main.c'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/06_DAC_DRIVE/main/main.c'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.internal.genericeditor.ExtensionBasedTextEditor.doSetInput(ExtensionBasedTextEditor.java:95)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2292)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1364)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:118)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-02-05 11:49:18.945
+!MESSAGE Cannot determine URI for '/06_DAC_DRIVE/main/main.c'.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:19.730
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:19.735
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:19.735
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:19.736
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-05 11:49:19.766
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:20.820
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:20.820
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:20.821
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:21.487
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 3.31.0. To use it, run 'C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py export --prefer-system'
+WARNING: Error while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.2_py3.11_env\\idf_version.txt'
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env
+ESP_IDF_VERSION=5.2
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\DELL\AppData\Local\Temp\tmp76yem_6xidf_21764
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:21.487
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:21.488
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:21.552
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.0.0/
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:21.560
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier and idf_path is similar.
+
+!ENTRY org.eclipse.ui 4 4 2025-02-05 11:49:29.826
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/06_DAC_DRIVE/README.md'.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3198)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1390)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1340)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1337)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1197)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1969)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/06_DAC_DRIVE/README.md'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2348)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2345)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	... 77 more
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-02-05 11:49:29.827
+!MESSAGE Cannot determine URI for '/06_DAC_DRIVE/README.md'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/06_DAC_DRIVE/README.md'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2348)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2345)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1390)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1340)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1337)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1197)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1969)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-02-05 11:49:29.827
+!MESSAGE Cannot determine URI for '/06_DAC_DRIVE/README.md'.
+!SESSION 2025-02-05 11:49:39.175 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:54.742
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:54.744
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:54.745
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:49:54.745
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-05 11:49:54.765
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.499
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.499
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.501
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.836
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 3.31.0. To use it, run 'C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py export --prefer-system'
+WARNING: Error while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.2_py3.11_env\\idf_version.txt'
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env
+ESP_IDF_VERSION=5.2
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\DELL\AppData\Local\Temp\tmphsbdkhsgidf_55360
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.837
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.837
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.893
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.0.0/
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:49:55.897
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier and idf_path is similar.
+!SESSION 2025-02-05 11:52:02.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:52:20.052
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:52:20.055
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:52:20.056
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-05 11:52:20.058
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-05 11:52:20.073
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:20.795
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:20.796
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:20.798
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:21.212
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 3.31.0. To use it, run 'C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py export --prefer-system'
+WARNING: Error while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.2_py3.11_env\\idf_version.txt'
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env
+ESP_IDF_VERSION=5.2
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\DELL\AppData\Local\Temp\tmp852ctzitidf_48748
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:21.213
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:21.214
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:21.281
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.0.0/
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:21.286
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier and idf_path is similar.
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:52.409
+!MESSAGE Source Template path:D:\ESP_IDF_Training\01_BLINK_TEST
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:52.700
+!MESSAGE Project Name:: 01_BLINK_TEST
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:52.701
+!MESSAGE Project:: P/01_BLINK_TEST
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:52.728
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:52:52.738
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:27.392
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:27.394
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:27.400
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:27.409
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:27.415
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:30.186
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:30.197
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:30.210
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:30.451
+!MESSAGE D:\ESP_IDF_Training\01_BLINK_TEST\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:53:31.812
+!MESSAGE ESP-IDF v5.2.2-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:05.137
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:05.155
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:05.164
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:07.228
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:07.244
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:07.259
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:39.059
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:39.068
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:39.079
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:39.269
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:54:39.288
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:31.917
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:31.935
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:31.944
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:32.051
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:32.059
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:34.041
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:34.045
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:56:34.053
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:57:33.331
+!MESSAGE Source Template path:D:\ESP_IDF_Training\02_INPUT_DRIVE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:57:48.006
+!MESSAGE Source Template path:D:\ESP_IDF_Training\03_INPUT_INTERRUPT_DRIVE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:58:06.082
+!MESSAGE Source Template path:D:\ESP_IDF_Training\04_SIMPLE_DEBOUNCING
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:58:22.645
+!MESSAGE Source Template path:D:\ESP_IDF_Training\05_GPIO_CONFIG
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:58:38.756
+!MESSAGE Source Template path:D:\ESP_IDF_Training\06_DAC_DRIVE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 11:58:53.468
+!MESSAGE Source Template path:D:\ESP_IDF_Training\07_WiFi_SCAN_DRIVE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:35.994
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:36.004
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:36.012
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:36.262
+!MESSAGE Source Template path:D:\New folder\08_WiFi_PROVISIONING_dpp_enrollee
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:38.022
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:38.037
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:38.050
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:51.074
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:04:51.076
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:18.926
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:18.934
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:18.943
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:21.368
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:21.378
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:05:21.389
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:37.866
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:37.883
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:37.883
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, PROCESSOR_LEVEL=6, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:\Espressif, SystemDrive=C:, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, COMPUTERNAME=JEROME, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:38.497
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:38.505
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_monitor.py, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:55924, D:/ESP_IDF_Training/07_WiFi_SCAN_DRIVE/build/scan.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:38.507
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:38.508
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:39.147
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:13:39.147
+!MESSAGE 0:0:0:0:0:0:0:1
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:14:24.367
+!MESSAGE D:\ESP_IDF_Training
+
+!ENTRY org.eclipse.ui.workbench 2 0 2025-02-05 12:14:57.293
+!MESSAGE Exception occurred while checking large file editor for org.eclipse.ui.part.FileEditorInput(/ESP_IDF_Training/tool_set_config.json)
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.ui.part.FileEditorInput.getPath(FileEditorInput.java:184)
+	at org.eclipse.ui.internal.LargeFileLimitsPreferenceHandler.getEditorForInput(LargeFileLimitsPreferenceHandler.java:233)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3163)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3074)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:347)
+	at com.espressif.idf.ui.tools.ManageEspIdfVersionsHandler$1.run(ManageEspIdfVersionsHandler.java:51)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:14:57.355
+!MESSAGE Using: C:/Espressif/frameworks/esp-idf-v5.2.2/ to find toolchains
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:14:57.356
+!MESSAGE Env used: {PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%, IDF_COMPONENT_MANAGER=1, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_DEACTIVATE_FILE_PATH=C:\Users\DELL\AppData\Local\Temp\tmp6z45wl1oidf_17996, IDF_MAINTAINER=1, IDF_CCACHE_ENABLE=1, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env, ESP_IDF_VERSION=5.2, ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:16:38.912
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:16:57.869
+!MESSAGE org.java_websocket.WebSocketImpl@53e713ba is terminated!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.140
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.140
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, PROCESSOR_LEVEL=6, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:\Espressif, SystemDrive=C:, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, COMPUTERNAME=JEROME, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.142
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.434
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.437
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_monitor.py, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:56006, D:/ESP_IDF_Training/07_WiFi_SCAN_DRIVE/build/scan.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.439
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.439
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.816
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:17:29.816
+!MESSAGE 0:0:0:0:0:0:0:1
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:18:36.967
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:18:37.015
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:31.684
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v5.2.2\examples\wifi\wifi_easy_connect\dpp-enrollee
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:31.926
+!MESSAGE D:\ESP_IDF_Training\08_WiFi_DDP_ENROLLEE\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:32.053
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:40.262
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:40.267
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:40.271
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.147
+!MESSAGE Project Name:: 08_WiFi_DDP_ENROLLEE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.147
+!MESSAGE Project:: P/08_WiFi_DDP_ENROLLEE
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.151
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.155
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.156
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.160
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:19:48.169
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:20:49.144
+!MESSAGE org.java_websocket.WebSocketImpl@474fa0fb is terminated!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:22.288
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:22.294
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:22.306
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:24.342
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:24.348
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:24.353
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:29.897
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:29.912
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:29.927
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:30.956
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:21:30.958
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:39.781
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:39.783
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, PROCESSOR_LEVEL=6, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:\Espressif, SystemDrive=C:, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, COMPUTERNAME=JEROME, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:39.787
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.296
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.300
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_monitor.py, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:49296, D:/ESP_IDF_Training/07_WiFi_SCAN_DRIVE/build/scan.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.302
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.303
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.807
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:23:40.807
+!MESSAGE 0:0:0:0:0:0:0:1
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:25:36.073
+!MESSAGE org.java_websocket.WebSocketImpl@3fb4e8e8 is terminated!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.195
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.196
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, PROCESSOR_LEVEL=6, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:\Espressif, SystemDrive=C:, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, COMPUTERNAME=JEROME, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.197
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.489
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.491
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_monitor.py, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:49320, D:/ESP_IDF_Training/08_WiFi_DDP_ENROLLEE/build/dpp-enrollee.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.492
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.493
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=JEROME, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Users\DELL\AppData\Local\Programs\jaguar;C:\Program Files\Git\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, USERNAME=DELL, EFC_7152=1, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\DELL, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkYEPBIwLfEiW7o64GBQtzwQAAAACAAAAAAAQZgAAAAEAACAAAACbFSq3Q6az2GqOf9TgA1xkbybyFfZTUQcBd6+8wq+66gAAAAAOgAAAAAIAACAAAAC0C1mjFB7EWQIc9dh4P8LGmz8ov9eC05zJ8g//aYio1GAAAABH9oSPUQfiyKqUuGQxB+SDfRZnAV+GcPXVCdPIpUj/W47jCZ9EqKkp1KdJ21rOI5/YfGOlTNY/EjLYb9ardR7LoHkdbWQMfMGR8J+gJ9PK11NmSFtbq/vVVBociCVYhc5AAAAAHEnSDtAgKJfhER32f5Ai/4EwN8EyIjLe/to7YFNjemi5H2CTMSEss53o3v8QD2z6kxEV/GPXrkTgXZgkfwFDoA==, LOCALAPPDATA=C:\Users\DELL\AppData\Local, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, USERDOMAIN=JEROME, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\JEROME, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\DELL\OneDrive, APPDATA=C:\Users\DELL\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=JEROME, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2/, PROCESSOR_REVISION=9a04, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\Windows, TEMP=C:\Users\DELL\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\DELL, TMP=C:\Users\DELL\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.895
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:26:24.896
+!MESSAGE 0:0:0:0:0:0:0:1
+
+!ENTRY com.espressif.idf.core 1 0 2025-02-05 12:29:00.892
+!MESSAGE org.java_websocket.WebSocketImpl@ea2838b is terminated!
